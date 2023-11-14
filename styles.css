@@ -189,7 +189,7 @@ body div img{
 .llama {
     width: 50%;
     height: 600px;
-    background: url("./sus/llama.png");
+    background: url("./llama.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
