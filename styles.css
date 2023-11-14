@@ -1,0 +1,209 @@
+* {
+    color: Black;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #326273;
+    color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 250;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 18px;
+  }
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 604px;
+    font-size: 0;
+    display: flex;
+}
+
+.text {
+    width: 50%;
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+.text h1 {
+    font-size: 36px;
+    color: #326273;
+    margin: 15px;
+}
+
+.text p {
+    font-size: 24px;
+    color: #326273;
+    margin: 15px;
+}
+
+.image {
+    width: 50%;
+    height: 600px;
+    background: url("20230623_110056.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+main {
+    border: 2px solid black;
+    background-color: #E39774;
+    padding: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+main p {
+    font-size: 25px;
+    margin: 15px;
+}
+
+main h2 {
+    font-size: 45px;
+    margin: 15px;
+}
+
+.edu {
+    background-color: #EEEEEE;
+    padding: 15px;
+    font-family: Georgia, serif;
+    border-radius: 10px;
+}
+
+.default {
+    background-color: #EEEEEE;
+    padding: 15px;
+    font-family: Georgia, serif;
+    border-radius: 10px;
+}
+
+.default p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.container {
+    height: 200px;
+  }
+
+  .colored-background {
+    background-color: #5C9EAD;
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners to the background */
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .icon {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .icon img {
+    width: 80px; /* Set the desired size for your icons */
+    height: 80px;
+    border-radius: 50%; /* Create circular icons */
+  }
+
+  .icon-text {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+.icon-head{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.colored-background h2{
+    padding-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.scratch {
+    background-color: #5C9EAD;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.scratch iframe {
+    margin-left: 5%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex h3 {
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-top: 10px;
+
+}
+
+body div img{
+    border: 2px solid black;
+}
+
+.idkAnymore {
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    font-family: copperplate, papyrus, fantasy;
+}
+
+.llama {
+    width: 50%;
+    height: 600px;
+    background: url("./sus/llama.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+.ahhh {
+    padding: 15px;
+}
+
+#defaultBlue {
+    background-color: #5C9EAD;
+}
+
+#defaultRed {
+    background-color: #E39774;
+}
