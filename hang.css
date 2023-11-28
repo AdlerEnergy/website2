@@ -1,0 +1,45 @@
+*{
+    color:white;
+}
+
+input{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    background-color:red;
+}
+
+#prog{
+    letter-spacing: 15px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+}
+
+#ent{
+    font-size: large;
+}
+
+#hello{
+    height: 45px;
+    width: 85px;
+    background-color: coral;
+    color: beige;
+}
