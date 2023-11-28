@@ -65,7 +65,7 @@ function button_clicked()
         if(check == false)
         {
             lives += 1;
-            img.src = "./img/img" + lives + ".png";
+            img.src = "./img" + lives + ".png";
             console.log("letter is not in word: " + img.src);
             if(lives < 6)
             {
