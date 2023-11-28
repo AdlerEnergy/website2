@@ -158,7 +158,7 @@ function new_game()
     lives = 0;
     entered.splice(0, entered.length);
 
-    img.src = "./img/img0.png";
+    img.src = "./img0.png";
     prog.textContent = "________";
     input.style.display = "inline";
     btn.style.display = "inline";
