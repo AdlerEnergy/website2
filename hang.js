@@ -114,7 +114,7 @@ function checkGameOver()
         else
         {
             win.play();
-            img.src = "./img/win.png";
+            img.src = "./win.png";
             prog.textContent = "You WIN";
             input.style.display = "none";
             btn.style.display = "none";
